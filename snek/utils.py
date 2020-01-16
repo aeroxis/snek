@@ -58,7 +58,7 @@ def load_snekfile():
     pwd = os.environ.get('PWD')
     snekfile_path = os.path.join(pwd, 'Snekfile')
     if os.path.exists(snekfile_path):
-
+        
         with open(snekfile_path, 'r') as f:
             try:
                 return yaml.load(f, Loader=yamlordereddictloader.Loader)
