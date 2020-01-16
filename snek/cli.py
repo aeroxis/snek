@@ -97,3 +97,4 @@ def run(ctx, command):
     # task_run_command(name)
     snek = ctx.obj
     snek.run_command(command)
+    

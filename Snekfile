@@ -12,7 +12,7 @@ commands:
   - echo "Hello from Snek!"
   - cat Snekfile
   test:
-  - pytest
+  - echo "Running Tests..."
 env:
   dev:
     commands:
