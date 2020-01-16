@@ -34,7 +34,7 @@ setup(
     description="Snek is a simple Dependency and Script Manager for Python",
     entry_points={
         'console_scripts': [
-            'snek=snek.cli:main',
+            'snek=snek.cli:snek',
         ],
     },
     install_requires=requirements,

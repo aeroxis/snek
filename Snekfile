@@ -1,0 +1,24 @@
+name: snek
+description: Snek is a simple Dependency and Script Manager for Python
+version: 0.1.0
+author: Aeroxis Enterprises, LLC
+author_email: info@aeroxis.com
+license: MIT License
+type: cli
+interpretter: '3.8'
+dependencies: []
+commands:
+  hello:
+  - echo "Hello from Snek!"
+  - cat Snekfile
+  test:
+  - pytest
+env:
+  dev:
+    commands:
+      shell:
+      - ipython
+    dependencies:
+    - ipython
+    - ipdb
+    - pytest
